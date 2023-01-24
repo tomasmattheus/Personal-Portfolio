@@ -129,6 +129,7 @@ a{
 #social-media{
     background-color: #303841;
     text-align: center;
+    border-bottom: solid #BE3144 7px;
 }
 
 #social-media h2{
@@ -142,6 +143,7 @@ a{
     font-style: italic;
     color: #F0F0F0;
     font-weight: lighter;
+    
 }
 
 .contact{
@@ -157,6 +159,7 @@ a{
     font-size: 1.2rem;
     text-shadow: 2px 2px 1px #1f1f1f;
     transition: transform 0.3s ease-out;
+    margin-bottom: 40px;
 }
 
 .btn{
@@ -164,3 +167,21 @@ a{
 padding: 1rem 2rem;
 border-radius: 2px;
 }
+
+footer{
+    background-color: #303841;
+    text-align: center;
+}
+
+footer p{
+    margin: 0 auto;
+    padding: 20px;
+    color: #F0F0F0;
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
